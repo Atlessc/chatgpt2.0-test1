@@ -7,10 +7,22 @@
   min-height: 100vh;
 }
 
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  font-family: 'Courier New', Courier, monospace;
+}
+
 .description {
   display: inherit;
   justify-content: inherit;
   align-items: inherit;
+  text-align: center;
   font-size: 0.85rem;
   max-width: var(--max-width);
   width: 100%;
